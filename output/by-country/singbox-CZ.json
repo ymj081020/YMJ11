@@ -5,22 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇷 IR 01 - xiaohe",
-      "server": "62.60.152.1",
-      "server_port": 56328,
-      "uuid": "ce230b9c-0531-40da-bc3f-f27a8e059db1",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "188.114.97.0",
+      "server_port": 443,
+      "uuid": "3e43ffd1-3f7b-45b0-a955-c249010c7ebc",
       "tls": {
         "enabled": true,
-        "server_name": "table.vkroom-it-service.xyz",
+        "server_name": "opeN-39.aVL-A47261.wORkers.Dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M",
-          "short_id": "f3a9c21e8b6d4571"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/opTpxA0twTE9wdy6dR?ed=2560",
+        "headers": {
+          "Host": "open-39.avl-a47261.workers.dev"
         }
       }
     },
@@ -29,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇷 IR 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
