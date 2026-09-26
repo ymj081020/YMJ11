@@ -28,7 +28,7 @@ proxies:
   servername: dzen.ru
   client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 85.204.107.174
+  server: 85.204.107.173
   port: 8080
   udp: true
   type: hysteria2
@@ -58,7 +58,7 @@ proxies:
     public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
