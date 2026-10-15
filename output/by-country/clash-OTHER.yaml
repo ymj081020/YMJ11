@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇪 秘鲁 (Peru) 01 - xiaohe
-  server: 172.65.90.41
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: undef.network
   port: 2053
   udp: true
   type: vless
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
   tls: true
-  servername: wzs.echo.net.eu.org
+  servername: uwu.blueknightnet.qzz.io
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlNSSwUEURwBVwcWUQYJGxsPQldGTQ8OBgJWFUU=
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
     headers:
-      Host: wzs.echo.net.eu.org
+      Host: uwu.blueknightnet.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇪 秘鲁 (Peru) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇪 秘鲁 (Peru) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES
