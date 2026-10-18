@@ -16,33 +16,30 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 46.253.132.237
-  port: 23688
+  server: se3.h1cloud.net
+  port: 25119
   udp: true
   type: vless
-  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk
-    short-id: f679b4f2
-  servername: apple.com
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: awarecricketer
+    public-key: szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4
+    short-id: 10f517
+  servername: www.samsung.com
+  client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 45.12.63.219
+  server: 88.216.223.66
   port: 443
   udp: true
   type: vless
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
   tls: true
-  servername: edge-lab-b.10media.top
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-service-name: swedenfeed
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  servername: tcpswed1.figurapn.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
