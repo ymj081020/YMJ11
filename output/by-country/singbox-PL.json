@@ -6,13 +6,13 @@
     {
       "type": "trojan",
       "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
-      "server": "31.133.0.186",
+      "server": "pl2.dedushka.top",
       "server_port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
         "server_name": "pl2.dedushka.top",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -24,7 +24,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pl1.dedushka.top",
-        "insecure": true
+        "insecure": false
       }
     },
     {
