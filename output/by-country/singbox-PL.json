@@ -13,6 +13,13 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
+      "server": "site.teslamotor.site",
+      "server_port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
       "server": "77.232.135.141",
       "server_port": 8445,
       "uuid": "36cf792c-f07d-4500-97ea-a395e5178deb",
@@ -25,13 +32,6 @@
         "type": "grpc",
         "service_name": "beru-pl"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
-      "server": "site.teslamotor.site",
-      "server_port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
       "type": "vmess",
