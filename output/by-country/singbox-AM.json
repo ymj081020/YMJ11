@@ -4,26 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "45.144.48.32",
-      "server_port": 56080,
-      "uuid": "f4daaec7-0e1e-4c8e-97e8-cff5347c2dae",
-      "security": "auto"
+      "type": "vless",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+      "server": "194.36.37.59",
+      "server_port": 10004,
+      "uuid": "f7376394-cd54-11f1-bb6a-bff6d0326f6a",
+      "transport": {
+        "type": "ws",
+        "path": "/vpnjantit"
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
