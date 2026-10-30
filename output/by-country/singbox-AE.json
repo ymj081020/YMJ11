@@ -22,6 +22,37 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "server": "23.27.20.142",
+      "server_port": 48537,
+      "uuid": "ed79c2d4-5558-428f-87f5-af4abc97a16d",
+      "tls": {
+        "enabled": true,
+        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "server": "ams1.rvpn.app",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "x2A6AsyZ-rAllz0wbKHzWA"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
       "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -35,25 +66,14 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "95.174.68.188"
-        }
+        "path": "/vless"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "178.253.16.185",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "x2A6AsyZ-rAllz0wbKHzWA"
     },
     {
       "type": "selector",
@@ -63,7 +83,8 @@
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
       ]
     },
     {
@@ -73,7 +94,8 @@
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
