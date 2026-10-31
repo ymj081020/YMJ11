@@ -6,20 +6,20 @@
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.gptcloudai.com",
+      "server": "www.windowsmsidownloads.com",
       "server_port": 443,
-      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.gptcloudai.com",
+        "server_name": "www.windowsmsidownloads.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/truth",
         "headers": {
-          "Host": "www.gptcloudai.com"
+          "Host": "www.windowsmsidownloads.com"
         }
       }
     },

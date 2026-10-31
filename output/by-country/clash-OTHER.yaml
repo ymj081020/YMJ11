@@ -5,21 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: www.gptcloudai.com
+  server: www.windowsmsidownloads.com
   port: 443
   udp: true
   type: vmess
-  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
   alterId: 0
   cipher: auto
   tls: true
-  servername: www.gptcloudai.com
+  servername: www.windowsmsidownloads.com
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /truth
     headers:
-      Host: www.gptcloudai.com
+      Host: www.windowsmsidownloads.com
 proxy-groups:
 - name: PROXIES
   type: select
