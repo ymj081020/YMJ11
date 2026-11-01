@@ -6,12 +6,12 @@
     {
       "type": "trojan",
       "tag": "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
-      "server": "208.69.78.29",
+      "server": "208.69.78.208",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "learn.yourultimateprofessionalcareerhub.com",
+        "server_name": "resources.yourultimateprofessionalcareerhub.com",
         "insecure": false
       }
     },
@@ -30,12 +30,12 @@
     {
       "type": "trojan",
       "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-      "server": "208.69.78.208",
+      "server": "208.69.78.29",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "resources.yourultimateprofessionalcareerhub.com",
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
         "insecure": false
       }
     },
@@ -51,7 +51,7 @@
         "server_name": "twitch.tv",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -61,15 +61,24 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-      "server": "208.69.78.19",
+      "server": "45.90.59.15",
       "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
-        "insecure": false
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
+          "short_id": "19253fae84102271"
+        }
       }
     },
     {
@@ -93,6 +102,18 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+      "server": "208.69.78.60",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -102,7 +123,8 @@
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe"
       ]
     },
     {
@@ -114,7 +136,8 @@
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
