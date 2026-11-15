@@ -35,12 +35,27 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+      "server": "185.197.193.137",
+      "server_port": 443,
+      "uuid": "313b84fa-b922-500f-9b65-acb67c040cc0",
+      "tls": {
+        "enabled": true,
+        "server_name": "us2.v2less.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "us2.v2less.site"
+        }
+      }
     },
     {
       "type": "selector",
