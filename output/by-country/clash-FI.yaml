@@ -24,20 +24,16 @@ proxies:
   sni: lakes.blog-forme.ru
   skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 89.22.224.146
-  port: 43788
+  server: 213.176.92.168
+  port: 14430
   udp: true
   type: vless
-  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /vless
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      Host: 213.176.92.168
 proxy-groups:
 - name: PROXIES
   type: select

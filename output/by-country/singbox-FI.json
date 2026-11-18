@@ -32,23 +32,14 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "89.22.224.146",
-      "server_port": 43788,
-      "uuid": "6fbd9bd1-ccd4-4e2f-a918-a0f871965763",
-      "tls": {
-        "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "213.176.92.168",
+      "server_port": 14430,
+      "uuid": "ba52cc43-700d-4040-9444-29214c98e6e0",
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/vless",
         "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+          "Host": "213.176.92.168"
         }
       }
     },
