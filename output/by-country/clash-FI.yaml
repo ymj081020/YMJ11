@@ -24,7 +24,7 @@ proxies:
   sni: lakes.blog-forme.ru
   skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 172.64.79.163
+  server: 162.159.160.117
   port: 2083
   udp: true
   type: vless
