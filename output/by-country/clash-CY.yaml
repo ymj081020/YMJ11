@@ -4,24 +4,23 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 31.210.78.66
-  port: 1080
+- name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
+  server: 45.86.60.174
+  port: 16443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: o3-9Eg79umh4CaY8sWC7b3
+  type: vless
+  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
 rules:
 - MATCH,PROXIES
