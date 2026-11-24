@@ -19,7 +19,11 @@
       "tls": {
         "enabled": true,
         "server_name": "xvxn1hkzf.mateflora.com",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
