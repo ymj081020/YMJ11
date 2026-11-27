@@ -15,46 +15,17 @@ proxies:
   servername: 31tawwo0.virtual-network.lol
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 48.102.207.169
-  port: 443
-  udp: true
-  type: vless
-  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: h7PkRRDOuhS9DQtU9TX0lQWiUW_u_803F7nVimuhln8
-    short-id: 0d059b684c11c739
-  servername: www.google.com
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
-  server: h-pl.ok-habits.xyz
-  port: 443
-  udp: true
-  type: vless
-  uuid: 259ec8bc-5a6b-4b33-8a71-c40e8d150c24
-  tls: true
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  servername: 1.4.8.8
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇵🇱 波兰 (Poland) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇵🇱 波兰 (Poland) 03 - xiaohe
 rules:
 - MATCH,PROXIES
